@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB1F82A161635AF004F0C46 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB1F829161635AF004F0C46 /* Cocoa.framework */; };
+		1AB1F834161635AF004F0C46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1F832161635AF004F0C46 /* InfoPlist.strings */; };
+		1AB1F836161635AF004F0C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1F835161635AF004F0C46 /* main.m */; };
+		1AB1F83A161635AF004F0C46 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1F838161635AF004F0C46 /* Credits.rtf */; };
+		1AB1F83D161635AF004F0C46 /* FTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1F83C161635AF004F0C46 /* FTWAppDelegate.m */; };
+		1AB1F840161635AF004F0C46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AB1F83E161635AF004F0C46 /* MainMenu.xib */; };
+		1AB1F84C161635E0004F0C46 /* FTWStartupLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1F84B161635E0004F0C46 /* FTWStartupLaunch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AB1F825161635AF004F0C46 /* FTWStartupLaunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTWStartupLaunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB1F829161635AF004F0C46 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1AB1F82C161635AF004F0C46 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1AB1F82D161635AF004F0C46 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1AB1F82E161635AF004F0C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AB1F831161635AF004F0C46 /* FTWStartupLaunch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTWStartupLaunch-Info.plist"; sourceTree = "<group>"; };
+		1AB1F833161635AF004F0C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AB1F835161635AF004F0C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AB1F837161635AF004F0C46 /* FTWStartupLaunch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTWStartupLaunch-Prefix.pch"; sourceTree = "<group>"; };
+		1AB1F839161635AF004F0C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1AB1F83B161635AF004F0C46 /* FTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWAppDelegate.h; sourceTree = "<group>"; };
+		1AB1F83C161635AF004F0C46 /* FTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWAppDelegate.m; sourceTree = "<group>"; };
+		1AB1F83F161635AF004F0C46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1AB1F84A161635E0004F0C46 /* FTWStartupLaunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWStartupLaunch.h; sourceTree = "<group>"; };
+		1AB1F84B161635E0004F0C46 /* FTWStartupLaunch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWStartupLaunch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB1F822161635AF004F0C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1F82A161635AF004F0C46 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB1F81A161635AF004F0C46 = {
+			isa = PBXGroup;
+			children = (
+				1AB1F82F161635AF004F0C46 /* FTWStartupLaunch */,
+				1AB1F828161635AF004F0C46 /* Frameworks */,
+				1AB1F826161635AF004F0C46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB1F826161635AF004F0C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1F825161635AF004F0C46 /* FTWStartupLaunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB1F828161635AF004F0C46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1F829161635AF004F0C46 /* Cocoa.framework */,
+				1AB1F82B161635AF004F0C46 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB1F82B161635AF004F0C46 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1F82C161635AF004F0C46 /* AppKit.framework */,
+				1AB1F82D161635AF004F0C46 /* CoreData.framework */,
+				1AB1F82E161635AF004F0C46 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1AB1F82F161635AF004F0C46 /* FTWStartupLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1F83B161635AF004F0C46 /* FTWAppDelegate.h */,
+				1AB1F83C161635AF004F0C46 /* FTWAppDelegate.m */,
+				1AB1F83E161635AF004F0C46 /* MainMenu.xib */,
+				1AB1F84A161635E0004F0C46 /* FTWStartupLaunch.h */,
+				1AB1F84B161635E0004F0C46 /* FTWStartupLaunch.m */,
+				1AB1F830161635AF004F0C46 /* Supporting Files */,
+			);
+			path = FTWStartupLaunch;
+			sourceTree = "<group>";
+		};
+		1AB1F830161635AF004F0C46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB1F831161635AF004F0C46 /* FTWStartupLaunch-Info.plist */,
+				1AB1F832161635AF004F0C46 /* InfoPlist.strings */,
+				1AB1F835161635AF004F0C46 /* main.m */,
+				1AB1F837161635AF004F0C46 /* FTWStartupLaunch-Prefix.pch */,
+				1AB1F838161635AF004F0C46 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB1F824161635AF004F0C46 /* FTWStartupLaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB1F843161635AF004F0C46 /* Build configuration list for PBXNativeTarget "FTWStartupLaunch" */;
+			buildPhases = (
+				1AB1F821161635AF004F0C46 /* Sources */,
+				1AB1F822161635AF004F0C46 /* Frameworks */,
+				1AB1F823161635AF004F0C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTWStartupLaunch;
+			productName = FTWStartupLaunch;
+			productReference = 1AB1F825161635AF004F0C46 /* FTWStartupLaunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB1F81C161635AF004F0C46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = FTW;
+			};
+			buildConfigurationList = 1AB1F81F161635AF004F0C46 /* Build configuration list for PBXProject "FTWStartupLaunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AB1F81A161635AF004F0C46;
+			productRefGroup = 1AB1F826161635AF004F0C46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB1F824161635AF004F0C46 /* FTWStartupLaunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB1F823161635AF004F0C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1F834161635AF004F0C46 /* InfoPlist.strings in Resources */,
+				1AB1F83A161635AF004F0C46 /* Credits.rtf in Resources */,
+				1AB1F840161635AF004F0C46 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB1F821161635AF004F0C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB1F836161635AF004F0C46 /* main.m in Sources */,
+				1AB1F83D161635AF004F0C46 /* FTWAppDelegate.m in Sources */,
+				1AB1F84C161635E0004F0C46 /* FTWStartupLaunch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AB1F832161635AF004F0C46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB1F833161635AF004F0C46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AB1F838161635AF004F0C46 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB1F839161635AF004F0C46 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1AB1F83E161635AF004F0C46 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB1F83F161635AF004F0C46 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB1F841161635AF004F0C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AB1F842161635AF004F0C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AB1F844161635AF004F0C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWStartupLaunch/FTWStartupLaunch-Prefix.pch";
+				INFOPLIST_FILE = "FTWStartupLaunch/FTWStartupLaunch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AB1F845161635AF004F0C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWStartupLaunch/FTWStartupLaunch-Prefix.pch";
+				INFOPLIST_FILE = "FTWStartupLaunch/FTWStartupLaunch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB1F81F161635AF004F0C46 /* Build configuration list for PBXProject "FTWStartupLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB1F841161635AF004F0C46 /* Debug */,
+				1AB1F842161635AF004F0C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB1F843161635AF004F0C46 /* Build configuration list for PBXNativeTarget "FTWStartupLaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB1F844161635AF004F0C46 /* Debug */,
+				1AB1F845161635AF004F0C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB1F81C161635AF004F0C46 /* Project object */;
+}
